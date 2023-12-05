@@ -1,3 +1,9 @@
+## Tailwind Example
+
+![Screenshot](https://raw.githubusercontent.com/akhmads/tailwind-example/main/screenshot/tailwind-1.png)
+![Screenshot](https://raw.githubusercontent.com/akhmads/tailwind-example/main/screenshot/tailwind-2.png)
+![Screenshot](https://raw.githubusercontent.com/akhmads/tailwind-example/main/screenshot/tailwind-3.png)
+
 Install node modules
 
 ```
