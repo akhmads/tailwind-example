@@ -1,8 +1,6 @@
 ## Tailwind Example
 
-![Screenshot](https://raw.githubusercontent.com/akhmads/tailwind-example/main/screenshot/tailwind-1.png)
-![Screenshot](https://raw.githubusercontent.com/akhmads/tailwind-example/main/screenshot/tailwind-2.png)
-![Screenshot](https://raw.githubusercontent.com/akhmads/tailwind-example/main/screenshot/tailwind-3.png)
+### Installation
 
 Install node modules
 
@@ -27,3 +25,9 @@ Open browser and type url address
 ```
 http://localhost:3000/
 ```
+
+### Screenshot
+
+![Screenshot](https://raw.githubusercontent.com/akhmads/tailwind-example/main/screenshot/tailwind-1.png)
+![Screenshot](https://raw.githubusercontent.com/akhmads/tailwind-example/main/screenshot/tailwind-2.png)
+![Screenshot](https://raw.githubusercontent.com/akhmads/tailwind-example/main/screenshot/tailwind-3.png)
