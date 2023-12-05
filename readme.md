@@ -15,3 +15,9 @@ Open terminal 2 and run
 ```
 serve
 ```
+
+Open browser and type url address
+
+```
+http://localhost:3000/
+```
