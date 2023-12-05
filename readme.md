@@ -1,5 +1,11 @@
+Install node modules
+
 ```
 npm install
-npx tailwindcss -i ./input.css -o ./output.css --watch
-serve
 ```
+
+Open terminal 1 and run
+`npx tailwindcss -i ./input.css -o ./output.css --watch`
+
+Open terminal 2 and run
+`serve`
