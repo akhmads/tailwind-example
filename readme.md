@@ -26,6 +26,11 @@ Open browser and type url address
 http://localhost:3000/
 ```
 
+If serve cannot running cause security reason run this command
+```
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
+```
+
 ### Screenshot
 
 ![Screenshot](https://raw.githubusercontent.com/akhmads/tailwind-example/main/screenshot/tailwind-1.png)
