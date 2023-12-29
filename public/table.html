@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="output.css" rel="stylesheet" />
+  </head>
+  <body class="w-full font-sans bg-slate-100">
+    <div class="max-w-screen-md mx-auto h-screen flex items-center justify-center">
+      <div class="bg-white p-10 w-full rounded-xl space-y-7">
+        <h1 class="text-3xl font-semibold mb-3">Table</h1>
+
+        <h2 class="text-xl font-semibold mb-4 dark:text-slate-200">Bordered Table</h2>
+        <div class="w-full border border-gray-200 dark:border-gray-500 rounded-xl overflow-x-auto">
+          <table class="w-full divide-y divide-gray-200 dark:divide-gray-500">
+            <thead class="bg-gray-50 dark:bg-slate-700 text-slate-800 dark:text-slate-300">
+              <tr class="divide-x divide-gray-200 dark:divide-gray-500">
+                <th class="px-4 py-2">Heading</th>
+                <th class="px-4 py-2">Heading</th>
+                <th class="px-4 py-2">Heading</th>
+                <th class="px-4 py-2">Heading</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-gray-200 dark:divide-gray-500 bg-white dark:bg-slate-600 text-slate-800 dark:text-slate-300">
+              <tr class="divide-x divide-gray-200 dark:divide-gray-500">
+                <td class="px-4 py-2">Row</td>
+                <td class="px-4 py-2">Row</td>
+                <td class="px-4 py-2">Row</td>
+                <td class="px-4 py-2">Row</td>
+              </tr>
+              <tr class="divide-x divide-gray-200 dark:divide-gray-500">
+                <td class="px-4 py-2">Row</td>
+                <td class="px-4 py-2">Row</td>
+                <td class="px-4 py-2">Row</td>
+                <td class="px-4 py-2">Row</td>
+              </tr>
+              <tr class="divide-x divide-gray-200 dark:divide-gray-500">
+                <td class="px-4 py-2">Row</td>
+                <td class="px-4 py-2">Row</td>
+                <td class="px-4 py-2">Row</td>
+                <td class="px-4 py-2">Row</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h2 class="text-xl font-semibold mb-4 dark:text-slate-200">Hover Table</h2>
+        <div class="w-full border border-slate-200 dark:border-slate-500 rounded-xl overflow-x-auto">
+          <table class="w-full divide-y divide-slate-200 dark:divide-slate-500">
+            <thead class="bg-slate-100 dark:bg-slate-800 text-slate-800 dark:text-slate-300">
+              <tr>
+                <th class="px-4 py-2 text-start">Heading</th>
+                <th class="px-4 py-2 text-start">Heading</th>
+                <th class="px-4 py-2 text-start">Heading</th>
+                <th class="px-4 py-2 text-start">Heading</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-200 dark:divide-slate-500 bg-white dark:bg-slate-600 text-slate-800 dark:text-slate-300">
+              <tr class="hover:bg-slate-100 dark:hover:bg-slate-700 cursor-pointer odd:bg-white dark:odd:bg-slate-600 even:bg-slate-50 dark:even:bg-slate-700">
+                <td class="px-4 py-2">Row</td>
+                <td class="px-4 py-2">Row</td>
+                <td class="px-4 py-2">Row</td>
+                <td class="px-4 py-2">Row</td>
+              </tr>
+              <tr class="hover:bg-slate-100 dark:hover:bg-slate-700 cursor-pointer odd:bg-white dark:odd:bg-slate-600 even:bg-slate-50 dark:even:bg-slate-700">
+                <td class="px-4 py-2">Row</td>
+                <td class="px-4 py-2">Row</td>
+                <td class="px-4 py-2">Row</td>
+                <td class="px-4 py-2">Row</td>
+              </tr>
+              <tr class="hover:bg-slate-100 dark:hover:bg-slate-700 cursor-pointer odd:bg-white dark:odd:bg-slate-600 even:bg-slate-50 dark:even:bg-slate-700">
+                <td class="px-4 py-2">Row</td>
+                <td class="px-4 py-2">Row</td>
+                <td class="px-4 py-2">Row</td>
+                <td class="px-4 py-2">Row</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="text-center">
+          <a href="/" class="text-indigo-600 hover:underline">Home page</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
